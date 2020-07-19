@@ -1,0 +1,54 @@
+Aug 19, 2019 7:55:16 PM com.resolverassignments.Tests test1
+INFO: ***********************   Test case 1 has been started   ***********************
+Aug 19, 2019 7:55:19 PM com.resolverassignments.Tests navigateURL
+INFO: Home page has been successfully opened
+Aug 19, 2019 7:55:21 PM com.resolverassignments.Tests isElementExist
+INFO: [[FirefoxDriver: firefox on MAC (9db1bedd-9315-884f-addf-c47c73190500)] -> id: inputEmail] is displayed successfully
+Aug 19, 2019 7:55:21 PM com.resolverassignments.Tests setText
+INFO: Entered text babaFakruddin@email.com into text field : babaFakruddin@email.com successfully
+Aug 19, 2019 7:55:23 PM com.resolverassignments.Tests isElementExist
+INFO: [[FirefoxDriver: firefox on MAC (9db1bedd-9315-884f-addf-c47c73190500)] -> id: inputPassword] is displayed successfully
+Aug 19, 2019 7:55:23 PM com.resolverassignments.Tests setText
+INFO: Entered text cGFzc3dvcmQ= into text field : cGFzc3dvcmQ= successfully
+Aug 19, 2019 7:55:25 PM com.resolverassignments.Tests test1
+INFO: ***********************   Test case 1 has been ended   ***********************
+Aug 19, 2019 7:55:25 PM com.resolverassignments.Tests test2
+INFO: ***********************   Test case 2 has been started   ***********************
+Aug 19, 2019 7:55:28 PM com.resolverassignments.Tests navigateURL
+INFO: Home page has been successfully opened
+Aug 19, 2019 7:55:28 PM com.resolverassignments.Tests test2
+INFO: ***********************   Test case 2 has been ended   ***********************
+Aug 19, 2019 7:55:28 PM com.resolverassignments.Tests test3
+INFO: ***********************   Test case 3 has been started   ***********************
+Aug 19, 2019 7:55:30 PM com.resolverassignments.Tests navigateURL
+INFO: Home page has been successfully opened
+Aug 19, 2019 7:55:35 PM com.resolverassignments.Tests test3
+INFO: ***********************   Test case 3 has been ended   ***********************
+Aug 19, 2019 7:55:35 PM com.resolverassignments.Tests test4
+INFO: ***********************   Test case 4 has been started   ***********************
+Aug 19, 2019 7:55:37 PM com.resolverassignments.Tests navigateURL
+INFO: Home page has been successfully opened
+Aug 19, 2019 7:55:39 PM com.resolverassignments.Tests test4
+FINE: Button 1 is Enabled
+Aug 19, 2019 7:55:39 PM com.resolverassignments.Tests test4
+FINE: Button 2 is Disabled
+Aug 19, 2019 7:55:39 PM com.resolverassignments.Tests test4
+INFO: ***********************   Test case 4 has been ended   ***********************
+Aug 19, 2019 7:55:39 PM com.resolverassignments.Tests test5
+INFO: ***********************   Test case 5 has been started   ***********************
+Aug 19, 2019 7:55:42 PM com.resolverassignments.Tests navigateURL
+INFO: Home page has been successfully opened
+Aug 19, 2019 7:55:50 PM com.resolverassignments.Tests test5
+FINE: You clicked a button! displayed successfully
+Aug 19, 2019 7:55:50 PM com.resolverassignments.Tests test5
+FINE: Button5 been disabled as expected
+Aug 19, 2019 7:55:50 PM com.resolverassignments.Tests test5
+INFO: ***********************   Test case 5 has been ended   ***********************
+Aug 19, 2019 7:55:50 PM com.resolverassignments.Tests test6
+INFO: ***********************   Test case 6 has been started   ***********************
+Aug 19, 2019 7:55:52 PM com.resolverassignments.Tests navigateURL
+INFO: Home page has been successfully opened
+Aug 19, 2019 7:55:54 PM com.resolverassignments.Tests test6
+FINE: Ventosanzap is displayed as expected in last cell of the table
+Aug 19, 2019 7:55:54 PM com.resolverassignments.Tests test6
+INFO: ***********************   Test case 6 has been ended   ***********************

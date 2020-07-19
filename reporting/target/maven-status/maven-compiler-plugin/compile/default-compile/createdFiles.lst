@@ -1,0 +1,5 @@
+common/Reporter.class
+html/HtmlReport.class
+common/StepDetails.class
+common/Result.class
+common/TestDetails.class
