@@ -20,6 +20,23 @@
 
     <artifactId>reporting</artifactId>
 
+    <distributionManagement>
+        <repository>
+            <uniqueVersion>false</uniqueVersion>
+            <id>JENKINS</id>
+            <name>LOCAL</name>
+            <url>file://127.0.0.1/Users/babafakruddindudekula/.m2/localmavendeploys/</url>
+            <layout>default</layout>
+        </repository>
+        <snapshotRepository>
+            <uniqueVersion>false</uniqueVersion>
+            <id>JENKINS-SNAPSHOT</id>
+            <name>SNAPSHOTS</name>
+            <url>file://127.0.0.1/Users/babafakruddindudekula/.m2/localmavensnapshots/</url>
+            <layout>legacy</layout>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
