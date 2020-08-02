@@ -1,2 +1,14 @@
 # Ignore target folder
 target
+maven-archiver
+.mvn/*
+*.class
+*.log
+*.jar
+*.war
+*.tar.gz
+*.zip
+*.rar
+pom.xml.tag
+release.properties
+buildNumber.properties
