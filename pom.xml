@@ -7,7 +7,7 @@
     <groupId>com.automateall</groupId>
     <artifactId>auto-boot</artifactId>
     <packaging>pom</packaging>
-    <version>1.1.1-SNAPSHOT</version>
+    <version>1.1.2-SNAPSHOT</version>
 
     <modules>
         <module>webui</module>

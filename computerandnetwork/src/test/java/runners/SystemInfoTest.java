@@ -3,7 +3,6 @@ package runners;
 import com.computer.SystemInfo;
 import junit.framework.TestCase;
 import org.junit.Before;
-import org.junit.Test;
 
 public class SystemInfoTest extends TestCase{
 

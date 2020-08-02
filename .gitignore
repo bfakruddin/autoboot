@@ -9,6 +9,9 @@ maven-archiver
 *.tar.gz
 *.zip
 *.rar
+*.iml
 pom.xml.tag
 release.properties
+pom.properties
+.idea/libraries
 buildNumber.properties
