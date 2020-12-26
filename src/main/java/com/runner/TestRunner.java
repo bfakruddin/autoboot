@@ -1,12 +1,15 @@
 package com.runner;
 
 import com.computer.SystemInfo;
+import com.integration.abstractfactory.DriverFactory;
 import com.integration.constants.DriverType;
 import com.integration.constants.TestType;
 import com.integration.designedpiece.TestFactory;
 import com.integration.designedpiece.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,24 +17,34 @@ import java.io.InputStreamReader;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 public class TestRunner {
     public static void main(String[] args) {
         /*System.setProperty("webdriver.firefox.marionette", "/Users/babafakruddindudekula/Documents/Technical-Practicing/Automation/selenium-drivers/geckodriver.exe");
-
         DesiredCapabilities capabilities=DesiredCapabilities.firefox();
-
         capabilities.setCapability("marionette", true);
-
         WebDriver driverFactory = new DriverFactory("Firefox").getWebDriver();
-]=-
         driverFactory.get("http://www.google.com");
-
         driverFactory.quit();*/
 
         /*WebDriver driver = new WebDriverFactory("firefox").getWebDriver();
         driver.get("http://www.google.com");
         driver.quit();*/
+
+        //Firefox 72 version Automation - Testing
+        /*WebDriver webDriver = new FirefoxDriver();
+        webDriver.manage().window().maximize();
+        webDriver.manage().timeouts().pageLoadTimeout(1, TimeUnit.SECONDS);
+        webDriver.get("https://www.google.com");*/
+
+//        System.setProperty("webdriver.gecko.driver", "/Users/babafakruddindudekula/Documents/Technical-Practicing/Automation/selenium-drivers/geckodriver");
+//        DesiredCapabilities capabilities=DesiredCapabilities.firefox();
+//        capabilities.setCapability("marionette", true);
+//        WebDriver webDriver = new FirefoxDriver();
+//        webDriver.get("http://www.google.com");
+//        webDriver.findElement(By.xpath("//input[@title='Search']")).sendKeys("India");
+//        webDriver.quit();
 
         /**
          * Below Code is creating instance for our Test type and kick off your testing
@@ -39,10 +52,10 @@ public class TestRunner {
         TestFactory testFactory = new TestFactory(TestType.WEB, DriverType.FIREFOX);
         TestFactory.WebActions actions = testFactory.new WebActions();
 
-        testFactory.get("http://google.com");
+        testFactory.get("https://google.com");
         testFactory.findElement(By.xpath("//input[@title='Search']")).sendKeys("Hello world");
-        actions.clear();
-        actions.sendKeys("India");
+//        actions.clear();
+//        actions.sendKeys("India");
 
         try {
             Thread.sleep(3000);

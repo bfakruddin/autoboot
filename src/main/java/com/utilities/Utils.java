@@ -5,7 +5,7 @@ import org.apache.commons.codec.binary.Base64;
 public class Utils {
     /**
      * Method: EncyptPassword
-     * @author Baba Fakruddin D (Baba Fairruddin Dudeirula)
+     * @author Baba Fakruddin D (Baba Fakruddin Dudekula)
      * @category Security related
      * @param strOrgPwd as String
      * @return String
@@ -16,8 +16,8 @@ public class Utils {
     }
 
     /**
-     * Method: Decrypt 3zri
-     * @author Baba Fakruddin D (Baba Fa]cruddin Dude]cula)
+     * Method: DecryptPassword
+     * @author Baba Fakruddin D (Baba Fakruddin Dudekula)
      * @category Security related
      * @paraxn encrypted password as String
      * @return byte[]

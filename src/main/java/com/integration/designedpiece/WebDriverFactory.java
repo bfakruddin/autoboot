@@ -17,6 +17,8 @@ public class WebDriverFactory{
                 webDriver = new WebDriverBuilder().getChromeDriver();
             }else if(browserType[0].equals(DriverType.IE)){
                 webDriver = new WebDriverBuilder().getInternetExplorerDriver();
+            }else if (browserType[0].equals(DriverType.SAFARI)){
+                webDriver = new WebDriverBuilder().getSafariDriver();
             }
         }
     }

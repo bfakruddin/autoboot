@@ -7,7 +7,7 @@
     <groupId>com.automateall</groupId>
     <artifactId>auto-boot</artifactId>
     <packaging>pom</packaging>
-    <version>1.1.2-SNAPSHOT</version>
+    <version>1.1.1-SNAPSHOT</version>
 
     <modules>
         <module>webui</module>
@@ -31,6 +31,7 @@
         <module>computerandnetwork</module>
         <module>configuration</module>
         <module>mainframes</module>
+        <module>objectrepository</module>
     </modules>
 
     <properties>
@@ -64,11 +65,11 @@
     </scm>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
-            <version>3.141.59</version>
+            <version>3.6.0</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
